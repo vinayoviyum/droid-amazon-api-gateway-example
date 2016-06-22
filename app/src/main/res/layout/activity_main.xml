@@ -9,4 +9,49 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.oviyum.androidamazonawsexample.MainActivity">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_et"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter username" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password_et"
+        android:layout_below="@+id/username_et"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/username_et"
+        android:layout_alignEnd="@+id/username_et"
+        android:hint="Enter password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/login_btn"
+        android:layout_below="@+id/password_et"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/password_et"
+        android:layout_alignEnd="@+id/password_et" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/response_tv"
+        android:layout_below="@+id/login_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/login_btn"
+        android:layout_alignEnd="@+id/login_btn"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>

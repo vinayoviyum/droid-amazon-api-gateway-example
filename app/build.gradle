@@ -23,11 +23,9 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
-
     // Amazon API Gateway
-    compile files('libs/Oviyum-awsexample-0.0.1.jar')
-    compile files('libs/Oviyum-example-0.0.1.jar')
     compile files('libs/aws-android-sdk-apigateway-core-2.2.18.jar')
     compile files('libs/aws-android-sdk-core-2.2.18.jar')
     compile files('libs/gson-2.2.4.jar')
+    compile files('libs/Oviyum-awsexample-0.0.1.jar')
 }
